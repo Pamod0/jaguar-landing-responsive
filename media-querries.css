@@ -1,4 +1,23 @@
 /*Media Queries*/
+@media (max-width: 1240px) {
+    /*navbar-section*/
+    .navbar-section .navbar .navbar-brand {
+        padding: 10px 120px;
+    }
+    a.nav-link {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1145px) {
+    /*navbar-section*/
+    .navbar-section .navbar .navbar-brand {
+        padding: 10px 0px;
+    }
+    a.nav-link {
+        font-size: 15px;
+    }
+}
 
 @media (max-width: 992px) {
     /*navbar-section*/
