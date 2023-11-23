@@ -1,0 +1,43 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+/*Contact Us Section*/
+
+.contact-us .contact-us-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.contact-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+}
+
+.info-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: #5e5e5e;
+}
+
+.contact-us a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Contact Form */
+
+.form-group {
+    margin-bottom: 1rem;
+}
+

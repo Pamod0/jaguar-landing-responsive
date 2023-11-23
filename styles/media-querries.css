@@ -41,10 +41,6 @@
 }
 
 @media (max-width: 768px) {
-    /*home-section-01*/
-    .home-section-01 {
-        
-    }
     /*slider-section*/
     .slider-section .image-box img {
         width: 25%;
