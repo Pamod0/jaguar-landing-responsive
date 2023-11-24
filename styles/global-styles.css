@@ -1,0 +1,155 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap');
+
+/*Postioning*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.item-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Paddings and Margins*/
+.pt-20 {
+    padding-top: 20px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+/*Fonts*/
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.uppercsae {
+    text-transform: uppercase !important;
+}
+
+.capitalize {
+    text-transform: capitalize !important;
+}
+
+
+/*Texts*/
+
+.no-link-deocrations {
+    text-decoration: none;
+}
+
+.footer-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.blue-heading {
+    font-weight: 700;
+    font-size: 20px;
+    color: #004270;
+}
+
+.banner-header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 11pt;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.p-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph-0 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #303030;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+.paragraph-1 {
+    width: 85%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #303030;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+/* Buttons */
+
+.btn-0 {
+    width: 200px;
+    height: 50px;
+    color: rgb(0, 66, 112);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 14px;
+    text-decoration: none;
+    outline: 0px;
+    box-shadow: none;
+    transition: all 0.5s ease 0s;
+    display: block;
+    margin: 0px auto;
+    border: 2px solid rgb(0, 124, 210);
+    border-radius: 30px;
+}
+
+.btn-0:hover {
+    cursor: pointer;
+    background-color: #007cd2;
+    color: #ffffff;
+    border: 2px solid #007cd2;
+}

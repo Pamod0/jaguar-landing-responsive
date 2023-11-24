@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jaguar</title>
     <link rel="stylesheet" href="./styles/global-styles.css" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <link rel="stylesheet" href="./styles/contact-us.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
+    <link rel="stylesheet" href="./styles/security.css" />
     <link rel="stylesheet" href="./styles/media-querries.css" />
     <link rel="shortcut icon" type="image/jpg" href="./assets/favicon.ico" />
     <link
@@ -39,177 +39,113 @@
             <div class="navbar-nav">
               <a class="nav-link" href="./index.html">COMPANY</a>
               <a class="nav-link" href="./about-us.html">ABOUT US</a>
-              <a class="nav-link" href="#">SECURITY</a>
-              <a class="nav-link" href="#">INVESTIGATION</a>
-              <a class="nav-link" href="#">SERVICES</a>
+              <a class="nav-link" href="./security.html">SECURITY</a>
+              <a class="nav-link active" href="./investigation.html"
+                >INVESTIGATION</a
+              >
+              <a class="nav-link" href="./services.html">SERVICES</a>
               <a class="nav-link" href="#">CLIENTS</a>
-              <a class="nav-link active" href="./contact-us.html">CONTACT US</a>
+              <a class="nav-link" href="./contact-us.html">CONTACT US</a>
             </div>
           </div>
         </div>
       </nav>
     </section>
-
-    <!--Contact Page Section-->
-    <section class="contact-us pt-60 pb-60">
-      <div class="container">
+    <!--Banner Section-->
+    <section class="banner-section pt-50 pb-50">
+      <div class="container security-banner">
         <div class="row">
-          <!-- Contact Us -->
-          <div class="col-md-4">
-            <h3 class="contact-us-header">Get In Touch</h3>
-            <div class="info-box">
-              <p class="fs-14 capitalized footer-heading">
-                Jaguar (Private) Limited
-              </p>
-              <p>
-                <span class="info-text"
-                  >8, N J V Cooray Mawatha, Rajagiriya 10107,
-                  <br />
-                  Sri Lanka
-                </span>
-              </p>
-              <p class="mb-0">
-                <span class="contact-text">Phone:</span>
-                <a href="tel:0112879030"
-                  ><span class="info-text">(+94) 112 879 030</span></a
-                >
-              </p>
-              <p class="mb-0">
-                <span class="contact-text">Fax : </span>
-                <a href="#"><span class="info-text">(+94) 112 053 232</span></a>
-              </p>
-              <p>
-                <span class="contact-text">Email:</span
-                ><a href="mailto:jagur@islandcorp.lk">
-                  <span class="info-text">jagur@islandcorp.lk</span>
-                </a>
-              </p>
-            </div>
-          </div>
-          <!-- Contact Form -->
-          <div class="col-md-8">
-            <form>
-              <div class="row">
-                <div class="col-md-2">
-                  <div class="inquiry-fields">
-                    <div class="form-group">
-                      <select
-                        class="form-control"
-                        name="nametitle"
-                        id="nametitle"
-                      >
-                        <option selected="selected" value="Mr.">Mr.</option>
-                        <option value="Mrs.">Mrs.</option>
-                        <option value="Miss.">Miss.</option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-5">
-                  <div class="inquiry-fields">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="name"
-                        name="name"
-                        placeholder="First Name"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-5">
-                  <div class="inquiry-fields">
-                    <div class="form-group">
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="lastname"
-                        name="lastname"
-                        placeholder="Last Name"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-7">
-                  <div class="inquiry-fields">
-                    <div class="form-group">
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="email"
-                        name="email"
-                        placeholder="Email"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-5">
-                  <div class="inquiry-fields">
-                    <div class="form-group">
-                      <input
-                        type="number"
-                        class="form-control"
-                        id="phone"
-                        name="phone"
-                        minlength="3"
-                        maxlength="10"
-                        pattern="[-+]?[0-9]"
-                        placeholder="Phone"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="SUBJECT"
-                      required=""
-                      name="subject"
-                      value=""
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <textarea
-                    class="form-control"
-                    id="message"
-                    name="message"
-                    rows="8"
-                    placeholder="ENGUIRY"
-                  ></textarea>
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-md-6"></div>
-                <div class="col-md-6">
-                  <div class="btn-0">Send Inquiry</div>
-                </div>
-              </div>
-            </form>
+          <div class="col-md-12 text-center text-white">
+            <p class="banner-header">
+              We have broken new ground in handling reliable and confidential
+              investigations
+              <br />
+              for a wide cross section of clients, both local and overseas
+            </p>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!--Text Section-->
+    <section class="security-text-section pt-60 pb-60">
+      <div class="container">
+        <div class="p-wrapper">
+          <p class="paragraph-1 mb-30">
+            We are, and we have been, over the past several years, the number
+            one private investigation company in the country, both in terms of
+            volume and value of investigations carried out. We have broken new
+            ground in handling reliable and confidential investigations for a
+            wide cross section of clients, both local and overseas. Our
+            prestigious clientele, comprising Banks, Insurance companies, Law
+            firms, leading businesses, and individuals, are all repeat customers
+            who continue to avail our services.
+          </p>
+          <p class="paragraph-1 mb-30">
+            Investigation operations are conducted directly by the Managing
+            Director, and the General Manager, another senior Police officer.
+            All field officers are hand-picked retired Police officers, with
+            notable intelligence service or crime investigation backgrounds.
+            Field officers are recruited on the Managing Director’s personal
+            knowledge of their service records, honesty, and integrity, in
+            alignment with Company values.
+          </p>
+          <p class="paragraph-1 mb-30">
+            The extensive intelligence and crime detection knowledge of the
+            Managing Director, Management, and field officers is brought to bear
+            on each case, maintaining the highest level of confidentiality and
+            integrity. Liaison and communication with Law Enforcement officers
+            and Government agencies are carried out where required, using the
+            excellent relationships developed over time, to expedite
+            investigations or prosecutions.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Security Photo Section-->
+    <section class="security-photo-section pt-60 pb-60">
+      <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="map mt-5">
-              <a
-                href="https://www.google.com/maps/place/8+N+J+V+Cooray+Rd,+Sri+Jayawardenepura+Kotte/@6.9069268,79.8980763,17z/data=!3m1!4b1!4m8!1m2!2m1!1sJAGUAR+LIMITED,+8,+N+J+V+Cooray+Mawatha,+Rajagiriya!3m4!1s0x3ae259f3ad0dc589:0x47f07c4405380765!8m2!3d6.9069215!4d79.900265"
-                target="_blank"
-                ><img
-                  src="./assets/contact-us/Jaguar-Map.png"
-                  class="img-fluid mx-auto d-block"
-                  alt="map"
-              /></a>
+          <div class="col-md-12 text-center">
+            <div class="security-img">
+              <img src="./assets/investigation/inverstigation-img-01.png" />
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Text Section 02-->
+    <section class="security-text-section-02 pt-60 pb-60">
+      <div class="container">
+        <div class="p-wrapper">
+          <p class="paragraph-1 mb-30">
+            A concise yet comprehensive reporting system is maintained to
+            communicate investigations and conclusions. All reports are once
+            again personally verified by the Managing Director and carry his
+            seal of authority. Depending on the duration of the operation, a
+            systematic interim reporting format is followed, to ensure regular
+            progress updates to the Client.
+          </p>
+          <p class="paragraph-1 mb-30">
+            Fraud and crime investigation is carried out in a manner that
+            facilitates prosecution at Client discretion. Authenticated evidence
+            gathering is carried out, ensuring compliance with the law, and
+            cases are ‘cracked’ using years of crime solving expertise, to
+            ensure ‘watertight’ cases. The extensive law enforcement experience
+            in leading evidence during trial is also made available to Clients,
+            and where required, the Managing Director and the operatives make
+            themselves available as specialist witnesses during prosecution.
+          </p>
+          <p class="paragraph-1 mb-30 highlighted bigger">
+            The success of our investigation service depends on our
+            uncompromising integrity; professional approach; intelligence and
+            crime solving expertise; law enforcement expertise; honest, accurate
+            and diligent investigation; legally compliant evidence gathering;
+            professional reporting; trial experience; and prosecution witness
+            capabilities.
+          </p>
         </div>
       </div>
     </section>

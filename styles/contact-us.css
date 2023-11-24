@@ -41,3 +41,8 @@
     margin-bottom: 1rem;
 }
 
+map .img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+
