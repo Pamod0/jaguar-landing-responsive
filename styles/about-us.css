@@ -10,8 +10,8 @@
 
 .banner-section .container {
     width: 100%;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 6%;
+    padding-left: 6%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -52,6 +52,10 @@
     color: #ffffff;
 }
 
+.banner-section .bottom-text-box {
+    width: 50%;
+}
+
 /*Text Section*/
 
 .text-section .paragraph-0 {
@@ -66,5 +70,43 @@
     border-bottom: 1px solid #a3d2f2;
 }
 */
+
+/* Media Querris */
+
+@media (max-width: 992px) {
+    .banner-section .bottom-text-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 431px) {
+    .banner-section .bottom-text-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 376px) {
+    .banner-section .container {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .banner-section .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .banner-section .text-box ::before {
+        position: absolute;
+        left: -60px;
+        content: url(../assets/about-us/core-icon.png);
+    }
+    .banner-section .text-box p {
+        margin-left: 50px;
+        font-size: 12px;
+    }
+}
 
 
