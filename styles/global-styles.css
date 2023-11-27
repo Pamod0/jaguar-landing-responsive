@@ -69,6 +69,12 @@
     text-transform: capitalize !important;
 }
 
+/*Font Colors*/
+
+.dark-blue {
+	color: #00243d;
+}
+
 
 /*Texts*/
 
@@ -98,6 +104,18 @@
     line-height: 1.5;
     letter-spacing: 2px;
 }
+
+.sub-heading-3 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14pt;
+	font-weight: 600;
+	color: #00243d;
+	line-height: 22px;
+	letter-spacing: 0.5px;
+	margin-bottom: 0px;
+	margin: 0px;
+}
+
 
 .p-wrapper {
     display: flex;

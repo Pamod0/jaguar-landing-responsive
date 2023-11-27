@@ -1,0 +1,85 @@
+.services-section-01 .container, 
+.services-section-02 .container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.services-section-01 .sub-heading-3, 
+.services-section-02 .sub-heading-3 {
+    font-weight: 600 !important;    
+}
+
+
+
+/* Services Section 01 */
+
+.services-section-01 .col-md-12 {
+    position: relative;
+}
+
+.services-section-01 .blue-heading::before {
+    content: "";
+    position: absolute;
+    width: 43%;
+    height: 1px;
+    background-color: #bac2cb;
+    bottom: 17px;
+    left: 15px;
+}
+
+.services-section-01 .blue-heading::after {
+    content: "";
+    position: absolute;
+    width: 43%;
+    height: 1px;
+    background-color: #bac2cb;
+    bottom: 17px;
+    right: 16px;
+}
+
+.service-text-box {
+    position: relative;
+}
+
+.service-text-box .sub-heading-3::before {
+    position: absolute;
+    left: -15px;
+    content: url(../assets/services/service-text-dec.png);
+}
+
+.service-text-box .sub-heading-3 {
+    padding-right: 33px;
+    padding-bottom: 15px;
+    padding-left: 32px;
+
+}
+
+/* Services Section 02 */
+
+.services-section-02 {
+    background-color: #f6f6f6;
+}
+
+.services-section-02 .col-md-12 {
+    position: relative;
+}
+
+.services-section-02 .blue-heading::before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: #bac2cb;
+    bottom: 17px;
+    left: 15px;
+}
+
+.services-section-02 .blue-heading::after {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 1px;
+    background-color: #bac2cb;
+    bottom: 17px;
+    right: 16px;
+}
