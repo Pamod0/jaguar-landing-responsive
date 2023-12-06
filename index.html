@@ -23,15 +23,7 @@
           <a class="navbar-brand" href="#">
             <img src="./assets/main-logo.png" alt="company-logo" />
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+          <button class="navbar-toggler" type="button" onclick="openNav()">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -41,13 +33,36 @@
               <a class="nav-link" href="./security.html">SECURITY</a>
               <a class="nav-link" href="./investigation.html">INVESTIGATION</a>
               <a class="nav-link" href="./services.html">SERVICES</a>
-              <a class="nav-link" href="#">CLIENTS</a>
+              <a class="nav-link" href="./clients.html">CLIENTS</a>
               <a class="nav-link" href="./contact-us.html">CONTACT US</a>
             </div>
           </div>
         </div>
       </nav>
     </section>
+
+    <!-- Mobile Navbar -->
+    <section class="mobile-nav">
+      <div class="container">
+        <div id="myNav" class="overlay">
+          <!-- Button to close the overlay navigation -->
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <!-- Overlay content -->
+          <div class="overlay-content">
+            <a class="nav-link active" href="./index.html">COMPANY</a>
+            <a class="nav-link" href="./about-us.html">ABOUT US</a>
+            <a class="nav-link" href="./security.html">SECURITY</a>
+            <a class="nav-link" href="./investigation.html">INVESTIGATION</a>
+            <a class="nav-link" href="./services.html">SERVICES</a>
+            <a class="nav-link" href="./clients.html">CLIENTS</a>
+            <a class="nav-link" href="./contact-us.html">CONTACT US</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--Banner Section-->
     <section class="banner-section pt-50 pb-50">
       <div class="container">
@@ -293,5 +308,6 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>

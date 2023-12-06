@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  
+}
+
+.hamburger {
+  display: block;
+  width: 35px;
+  cursor: pointer;
+}

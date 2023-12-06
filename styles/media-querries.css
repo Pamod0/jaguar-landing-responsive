@@ -41,6 +41,10 @@
 }
 
 @media (max-width: 768px) {
+    /*mobile navbar*/
+    .mobile-nav {
+        display: block;
+    }
     /*slider-section*/
     .slider-section .image-box img {
         width: 25%;
